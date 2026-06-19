@@ -35,7 +35,7 @@ public sealed class InvoicesController(ISender sender) : ControllerBase
         return Ok(new { id });
     }
 
-    [HttpGet("today")]
+    [HttpGet()]
     public async Task<IActionResult> GetToday(CancellationToken cancellationToken)
     {
         var query = new GetTodayInvoicesQuery();

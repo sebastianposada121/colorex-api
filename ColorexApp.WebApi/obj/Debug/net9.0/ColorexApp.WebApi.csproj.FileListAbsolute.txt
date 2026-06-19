@@ -67,3 +67,4 @@
 /Users/usuario/RiderProjects/ColorexApp/ColorexApp.WebApi/obj/Debug/net9.0/ColorexApp.WebApi.pdb
 /Users/usuario/RiderProjects/ColorexApp/ColorexApp.WebApi/obj/Debug/net9.0/ColorexApp.WebApi.genruntimeconfig.cache
 /Users/usuario/RiderProjects/ColorexApp/ColorexApp.WebApi/obj/Debug/net9.0/ref/ColorexApp.WebApi.dll
+/Users/usuario/RiderProjects/ColorexApp/ColorexApp.WebApi/obj/Debug/net9.0/ColorexApp.WebApi.sourcelink.json
