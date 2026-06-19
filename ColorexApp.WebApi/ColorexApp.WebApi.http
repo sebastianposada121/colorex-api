@@ -1,0 +1,6 @@
+@ColorexApp.WebApi_HostAddress = http://localhost:5053
+
+GET {{ColorexApp.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,309 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/usuario/RiderProjects/ColorexApp/ColorexApp.WebApi/ColorexApp.WebApi.csproj": {}
+  },
+  "projects": {
+    "/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Application/ColorexApp.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Application/ColorexApp.Application.csproj",
+        "projectName": "ColorexApp.Application",
+        "projectPath": "/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Application/ColorexApp.Application.csproj",
+        "packagesPath": "/Users/usuario/.nuget/packages/",
+        "outputPath": "/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/usuario/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Domain/ColorexApp.Domain.csproj": {
+                "projectPath": "/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Domain/ColorexApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "Mapster": {
+              "target": "Package",
+              "version": "[10.0.8, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[14.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Domain/ColorexApp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Domain/ColorexApp.Domain.csproj",
+        "projectName": "ColorexApp.Domain",
+        "projectPath": "/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Domain/ColorexApp.Domain.csproj",
+        "packagesPath": "/Users/usuario/.nuget/packages/",
+        "outputPath": "/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/usuario/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Infrastructure/ColorexApp.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Infrastructure/ColorexApp.Infrastructure.csproj",
+        "projectName": "ColorexApp.Infrastructure",
+        "projectPath": "/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Infrastructure/ColorexApp.Infrastructure.csproj",
+        "packagesPath": "/Users/usuario/.nuget/packages/",
+        "outputPath": "/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/usuario/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Application/ColorexApp.Application.csproj": {
+                "projectPath": "/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Application/ColorexApp.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.19.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/usuario/RiderProjects/ColorexApp/ColorexApp.WebApi/ColorexApp.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/usuario/RiderProjects/ColorexApp/ColorexApp.WebApi/ColorexApp.WebApi.csproj",
+        "projectName": "ColorexApp.WebApi",
+        "projectPath": "/Users/usuario/RiderProjects/ColorexApp/ColorexApp.WebApi/ColorexApp.WebApi.csproj",
+        "packagesPath": "/Users/usuario/.nuget/packages/",
+        "outputPath": "/Users/usuario/RiderProjects/ColorexApp/ColorexApp.WebApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/usuario/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Infrastructure/ColorexApp.Infrastructure.csproj": {
+                "projectPath": "/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Infrastructure/ColorexApp.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

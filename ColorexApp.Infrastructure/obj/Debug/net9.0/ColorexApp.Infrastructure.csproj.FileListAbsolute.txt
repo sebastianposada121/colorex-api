@@ -1,0 +1,17 @@
+/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Infrastructure/obj/Debug/net9.0/ColorexApp.Infrastructure.csproj.AssemblyReference.cache
+/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Infrastructure/obj/Debug/net9.0/ColorexApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Infrastructure/obj/Debug/net9.0/ColorexApp.Infrastructure.AssemblyInfoInputs.cache
+/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Infrastructure/obj/Debug/net9.0/ColorexApp.Infrastructure.AssemblyInfo.cs
+/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Infrastructure/obj/Debug/net9.0/ColorexApp.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Infrastructure/bin/Debug/net9.0/ColorexApp.Infrastructure.deps.json
+/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Infrastructure/bin/Debug/net9.0/ColorexApp.Infrastructure.dll
+/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Infrastructure/bin/Debug/net9.0/ColorexApp.Infrastructure.pdb
+/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Infrastructure/bin/Debug/net9.0/ColorexApp.Application.dll
+/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Infrastructure/bin/Debug/net9.0/ColorexApp.Domain.dll
+/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Infrastructure/bin/Debug/net9.0/ColorexApp.Application.pdb
+/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Infrastructure/bin/Debug/net9.0/ColorexApp.Domain.pdb
+/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Infrastructure/obj/Debug/net9.0/ColorexA.A33C8314.Up2Date
+/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Infrastructure/obj/Debug/net9.0/ColorexApp.Infrastructure.dll
+/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Infrastructure/obj/Debug/net9.0/refint/ColorexApp.Infrastructure.dll
+/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Infrastructure/obj/Debug/net9.0/ColorexApp.Infrastructure.pdb
+/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Infrastructure/obj/Debug/net9.0/ref/ColorexApp.Infrastructure.dll

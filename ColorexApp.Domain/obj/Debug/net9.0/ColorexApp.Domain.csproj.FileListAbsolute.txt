@@ -1,0 +1,11 @@
+/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Domain/bin/Debug/net9.0/ColorexApp.Domain.deps.json
+/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Domain/bin/Debug/net9.0/ColorexApp.Domain.dll
+/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Domain/bin/Debug/net9.0/ColorexApp.Domain.pdb
+/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Domain/obj/Debug/net9.0/ColorexApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Domain/obj/Debug/net9.0/ColorexApp.Domain.AssemblyInfoInputs.cache
+/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Domain/obj/Debug/net9.0/ColorexApp.Domain.AssemblyInfo.cs
+/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Domain/obj/Debug/net9.0/ColorexApp.Domain.csproj.CoreCompileInputs.cache
+/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Domain/obj/Debug/net9.0/ColorexApp.Domain.dll
+/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Domain/obj/Debug/net9.0/refint/ColorexApp.Domain.dll
+/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Domain/obj/Debug/net9.0/ColorexApp.Domain.pdb
+/Users/usuario/RiderProjects/ColorexApp/ColorexApp.Domain/obj/Debug/net9.0/ref/ColorexApp.Domain.dll
