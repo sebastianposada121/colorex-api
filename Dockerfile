@@ -1,7 +1,7 @@
 ﻿# ==========================================
-# Etapa 1: Compilación (SDK de .NET)
+# Etapa 1: Compilación (SDK de .NET 9)
 # ==========================================
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 WORKDIR /src
 
 # 1. Copiar los archivos de proyecto (.csproj) desde la raíz real
@@ -21,9 +21,9 @@ WORKDIR "/src/ColorexApp.WebApi"
 RUN dotnet publish "ColorexApp.WebApi.csproj" -c Release -o /app/publish --no-restore
 
 # ==========================================
-# Etapa 2: Entorno de Ejecución (Runtime)
+# Etapa 2: Entorno de Ejecución (Runtime de .NET 9)
 # ==========================================
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
+FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS final
 WORKDIR /app
 
 # Copiar únicamente los binarios compilados de la etapa anterior
