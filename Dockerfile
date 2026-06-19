@@ -4,21 +4,15 @@
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 WORKDIR /src
 
-# 1. Copiar los archivos de proyecto (.csproj) desde la raíz real
-COPY ["ColorexApp.Domain/ColorexApp.Domain.csproj", "ColorexApp.Domain/"]
-COPY ["ColorexApp.Application/ColorexApp.Application.csproj", "ColorexApp.Application/"]
-COPY ["ColorexApp.Infrastructure/ColorexApp.Infrastructure.csproj", "ColorexApp.Infrastructure/"]
-COPY ["ColorexApp.WebApi/ColorexApp.WebApi.csproj", "ColorexApp.WebApi/"]
-
-# 2. Restaurar los paquetes NuGet basados en la ruta real
-RUN dotnet restore "ColorexApp.WebApi/ColorexApp.WebApi.csproj"
-
-# 3. Copiar el resto del código fuente de la solución
+# 1. Copiar absolutamente todo el código de la solución desde el principio
 COPY . .
 
-# 4. Compilar y publicar los binarios optimizados desde la raíz real
+# 2. Restaurar dependencias de forma explícita para toda la solución
+RUN dotnet restore "ColorexApp.sln"
+
+# 3. Moverse al proyecto WebApi, restaurar y publicar todo junto
 WORKDIR "/src/ColorexApp.WebApi"
-RUN dotnet publish "ColorexApp.WebApi.csproj" -c Release -o /app/publish --no-restore
+RUN dotnet publish "ColorexApp.WebApi.csproj" -c Release -o /app/publish
 
 # ==========================================
 # Etapa 2: Entorno de Ejecución (Runtime de .NET 9)
