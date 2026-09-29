@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ColorexApp.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f6b044fab2d0fe34689b309af70f3557aed133e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df553aa294ea75a6544cfc3f95c95c054bd53dfa")]
 [assembly: System.Reflection.AssemblyProductAttribute("ColorexApp.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ColorexApp.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
